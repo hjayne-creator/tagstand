@@ -130,7 +130,7 @@ const TagstandModernEcommerce = () => {
             </div>
             <div className="hidden md:block">
               <img 
-                src="/api/placeholder/500/350" 
+                src="/images/hero-nfc-tags.jpg" 
                 alt="NFC Tags Collection" 
                 className="rounded-lg shadow-lg object-cover"
               />
@@ -180,7 +180,7 @@ const TagstandModernEcommerce = () => {
               <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
                 <div className="h-32 bg-gray-200 flex items-center justify-center">
                   <img 
-                    src={`/api/placeholder/150/150`} 
+                    src={`/images/categories/${category.toLowerCase().replace(/\s+/g, '-')}.jpg`} 
                     alt={category} 
                     className="h-24 w-24 object-cover"
                   />

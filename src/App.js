@@ -1,5 +1,5 @@
 import React from 'react';
-import TagstandModernEcommerce from './components/TagstandModernEcommerce';
+import TagstandModernEcommerce from './components/tagstand';
 
 function App() {
   return (
