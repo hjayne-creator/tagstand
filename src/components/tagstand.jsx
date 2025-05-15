@@ -29,7 +29,7 @@ const TagstandModernEcommerce = () => {
               <button className="lg:hidden" onClick={toggleMobileMenu}>
                 {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
-              <a href="#" className="font-bold text-blue-600 text-2xl">TAGSTAND</a>
+              <a href="/" className="font-bold text-blue-600 text-2xl">TAGSTAND</a>
             </div>
             
             {/* Desktop Navigation */}
@@ -44,22 +44,22 @@ const TagstandModernEcommerce = () => {
                 </button>
                 {categoryMenuOpen && (
                   <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg z-50 py-2">
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">NFC Stickers</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Hard Tags</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Tokens</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Keychains</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Wristbands</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Cards</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Readers/Writers</a>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">View All</a>
+                    <a href="/products" className="block px-4 py-2 hover:bg-gray-100">NFC Stickers</a>
+                    <a href="/products/hard-tags" className="block px-4 py-2 hover:bg-gray-100">Hard Tags</a>
+                    <a href="/products/tokens" className="block px-4 py-2 hover:bg-gray-100">Tokens</a>
+                    <a href="/products/keychains" className="block px-4 py-2 hover:bg-gray-100">Keychains</a>
+                    <a href="/products/wristbands" className="block px-4 py-2 hover:bg-gray-100">Wristbands</a>
+                    <a href="/products/cards" className="block px-4 py-2 hover:bg-gray-100">Cards</a>
+                    <a href="/products/readers" className="block px-4 py-2 hover:bg-gray-100">Readers/Writers</a>
+                    <a href="/products" className="block px-4 py-2 hover:bg-gray-100">View All</a>
                   </div>
                 )}
               </div>
-              <a href="#" className="hover:text-blue-600 font-medium">Custom Builder</a>
-              <a href="#" className="hover:text-blue-600 font-medium">Solutions</a>
-              <a href="#" className="hover:text-blue-600 font-medium">Bulk Orders</a>
-              <a href="#" className="hover:text-blue-600 font-medium">About</a>
-              <a href="#" className="hover:text-blue-600 font-medium">Contact</a>
+              <a href="/custom-builder" className="hover:text-blue-600 font-medium">Custom Builder</a>
+              <a href="/solutions" className="hover:text-blue-600 font-medium">Solutions</a>
+              <a href="/bulk-orders" className="hover:text-blue-600 font-medium">Bulk Orders</a>
+              <a href="/about" className="hover:text-blue-600 font-medium">About</a>
+              <a href="/contact" className="hover:text-blue-600 font-medium">Contact</a>
             </nav>
             
             {/* Search & Cart */}
@@ -72,13 +72,13 @@ const TagstandModernEcommerce = () => {
                 />
                 <Search size={20} className="text-gray-500" />
               </div>
-              <a href="#" className="hover:text-blue-600">
+              <button className="hover:text-blue-600">
                 <User size={24} />
-              </a>
-              <a href="#" className="relative hover:text-blue-600">
+              </button>
+              <button className="relative hover:text-blue-600">
                 <ShoppingCart size={24} />
                 <span className="absolute -top-2 -right-2 bg-blue-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -96,12 +96,12 @@ const TagstandModernEcommerce = () => {
                 <Search size={20} className="text-gray-500" />
               </div>
               <nav className="flex flex-col space-y-3 text-gray-700">
-                <a href="#" className="py-2 border-b border-gray-100 font-medium">Products</a>
-                <a href="#" className="py-2 border-b border-gray-100 font-medium">Custom Builder</a>
-                <a href="#" className="py-2 border-b border-gray-100 font-medium">Solutions</a>
-                <a href="#" className="py-2 border-b border-gray-100 font-medium">Bulk Orders</a>
-                <a href="#" className="py-2 border-b border-gray-100 font-medium">About</a>
-                <a href="#" className="py-2 font-medium">Contact</a>
+                <a href="/products" className="py-2 border-b border-gray-100 font-medium">Products</a>
+                <a href="/custom-builder" className="py-2 border-b border-gray-100 font-medium">Custom Builder</a>
+                <a href="/solutions" className="py-2 border-b border-gray-100 font-medium">Solutions</a>
+                <a href="/bulk-orders" className="py-2 border-b border-gray-100 font-medium">Bulk Orders</a>
+                <a href="/about" className="py-2 border-b border-gray-100 font-medium">About</a>
+                <a href="/contact" className="py-2 font-medium">Contact</a>
               </nav>
             </div>
           </div>
@@ -120,10 +120,10 @@ const TagstandModernEcommerce = () => {
                 High-quality custom NFC tags for stickers, hard tags, tokens, keychains, wristbands, and more.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#" className="inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded-full hover:bg-gray-100 text-center">
+                <a href="/products" className="inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded-full hover:bg-gray-100 text-center">
                   Shop Products
                 </a>
-                <a href="#" className="inline-block bg-transparent border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-blue-600 text-center">
+                <a href="/custom-builder" className="inline-block bg-transparent border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-blue-600 text-center">
                   Design Custom Tags
                 </a>
               </div>
@@ -187,7 +187,7 @@ const TagstandModernEcommerce = () => {
                 </div>
                 <div className="p-4 text-center">
                   <h3 className="font-medium mb-2">{category}</h3>
-                  <a href="#" className="text-blue-600 text-sm flex items-center justify-center space-x-1">
+                  <a href={`/products/${category.toLowerCase().replace(/\s+/g, '-')}`} className="text-blue-600 text-sm flex items-center justify-center space-x-1">
                     <span>Shop Now</span>
                     <ArrowRight size={14} />
                   </a>
@@ -206,7 +206,7 @@ const TagstandModernEcommerce = () => {
               <h2 className="text-3xl font-bold mb-2">Featured Products</h2>
               <p className="text-gray-600">Our most popular NFC solutions</p>
             </div>
-            <a href="#" className="hidden md:inline-block text-blue-600 hover:underline font-medium">
+            <a href="/products" className="hidden md:inline-block text-blue-600 hover:underline font-medium">
               View All Products
             </a>
           </div>
@@ -233,7 +233,7 @@ const TagstandModernEcommerce = () => {
                   <h3 className="font-medium text-lg mb-2">{product.name}</h3>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-gray-900">From {product.price}</span>
-                    <a href="#" className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700">Add to Cart</a>
+                    <a href={`/products/${product.name.toLowerCase().replace(/\s+/g, '-')}`} className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700">Add to Cart</a>
                   </div>
                 </div>
               </div>
@@ -241,7 +241,7 @@ const TagstandModernEcommerce = () => {
           </div>
           
           <div className="text-center mt-8 md:hidden">
-            <a href="#" className="inline-block text-blue-600 hover:underline font-medium">
+            <a href="/products" className="inline-block text-blue-600 hover:underline font-medium">
               View All Products
             </a>
           </div>
@@ -275,7 +275,7 @@ const TagstandModernEcommerce = () => {
                   <span>No Minimum Order</span>
                 </div>
               </div>
-              <a href="#" className="inline-block bg-blue-600 text-white font-bold px-6 py-3 rounded-full hover:bg-blue-500">
+              <a href="/custom-builder" className="inline-block bg-blue-600 text-white font-bold px-6 py-3 rounded-full hover:bg-blue-700">
                 Start Designing Now
               </a>
             </div>
@@ -324,7 +324,7 @@ const TagstandModernEcommerce = () => {
                 <div className="p-6">
                   <h3 className="font-bold text-lg mb-2">{solution.title}</h3>
                   <p className="text-gray-600 mb-4">{solution.desc}</p>
-                  <a href="#" className="text-blue-600 font-medium flex items-center space-x-1">
+                  <a href={`/solutions/${solution.title.toLowerCase().replace(/\s+/g, '-')}`} className="text-blue-600 font-medium flex items-center space-x-1">
                     <span>Learn More</span>
                     <ArrowRight size={16} />
                   </a>
@@ -440,38 +440,38 @@ const TagstandModernEcommerce = () => {
             <div>
               <h3 className="text-white font-bold text-lg mb-4">Products</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white">NFC Stickers</a></li>
-                <li><a href="#" className="hover:text-white">Hard Tags</a></li>
-                <li><a href="#" className="hover:text-white">Tokens</a></li>
-                <li><a href="#" className="hover:text-white">Keychains</a></li>
-                <li><a href="#" className="hover:text-white">Wristbands</a></li>
-                <li><a href="#" className="hover:text-white">Cards</a></li>
-                <li><a href="#" className="hover:text-white">Readers/Writers</a></li>
+                <li><a href="/products/stickers" className="hover:text-white">NFC Stickers</a></li>
+                <li><a href="/products/hard-tags" className="hover:text-white">Hard Tags</a></li>
+                <li><a href="/products/tokens" className="hover:text-white">Tokens</a></li>
+                <li><a href="/products/keychains" className="hover:text-white">Keychains</a></li>
+                <li><a href="/products/wristbands" className="hover:text-white">Wristbands</a></li>
+                <li><a href="/products/cards" className="hover:text-white">Cards</a></li>
+                <li><a href="/products/readers" className="hover:text-white">Readers/Writers</a></li>
               </ul>
             </div>
             
             <div>
               <h3 className="text-white font-bold text-lg mb-4">Solutions</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white">Retail & Marketing</a></li>
-                <li><a href="#" className="hover:text-white">Asset Tracking</a></li>
-                <li><a href="#" className="hover:text-white">Events & Hospitality</a></li>
-                <li><a href="#" className="hover:text-white">Product Authentication</a></li>
-                <li><a href="#" className="hover:text-white">Payments</a></li>
-                <li><a href="#" className="hover:text-white">Customer Engagement</a></li>
+                <li><a href="/solutions/retail" className="hover:text-white">Retail & Marketing</a></li>
+                <li><a href="/solutions/asset-tracking" className="hover:text-white">Asset Tracking</a></li>
+                <li><a href="/solutions/events" className="hover:text-white">Events & Hospitality</a></li>
+                <li><a href="/solutions/authentication" className="hover:text-white">Product Authentication</a></li>
+                <li><a href="/solutions/payments" className="hover:text-white">Payments</a></li>
+                <li><a href="/solutions/engagement" className="hover:text-white">Customer Engagement</a></li>
               </ul>
             </div>
             
             <div>
               <h3 className="text-white font-bold text-lg mb-4">Support</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white">Contact Us</a></li>
-                <li><a href="#" className="hover:text-white">FAQ</a></li>
-                <li><a href="#" className="hover:text-white">Shipping & Returns</a></li>
-                <li><a href="#" className="hover:text-white">Technical Support</a></li>
-                <li><a href="#" className="hover:text-white">Custom Orders</a></li>
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white">Terms & Conditions</a></li>
+                <li><a href="/contact" className="hover:text-white">Contact Us</a></li>
+                <li><a href="/faq" className="hover:text-white">FAQ</a></li>
+                <li><a href="/shipping" className="hover:text-white">Shipping & Returns</a></li>
+                <li><a href="/support" className="hover:text-white">Technical Support</a></li>
+                <li><a href="/custom-orders" className="hover:text-white">Custom Orders</a></li>
+                <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
+                <li><a href="/terms" className="hover:text-white">Terms & Conditions</a></li>
               </ul>
             </div>
           </div>
@@ -646,7 +646,7 @@ const TagstandModernEcommerce = () => {
                     <span className="font-bold">From $0.47</span>
                   </div>
                   <div className="mt-2 flex justify-end">
-                    <a href="#" className="text-blue-600 font-medium text-sm hover:underline">View Products</a>
+                    <a href={`/products/${product.name.toLowerCase().replace(/\s+/g, '-')}`} className="text-blue-600 font-medium text-sm hover:underline">View Products</a>
                   </div>
                 </div>
                 
@@ -664,7 +664,7 @@ const TagstandModernEcommerce = () => {
                     <span className="font-bold">From $0.68</span>
                   </div>
                   <div className="mt-2 flex justify-end">
-                    <a href="#" className="text-blue-600 font-medium text-sm hover:underline">View Products</a>
+                    <a href={`/products/${product.name.toLowerCase().replace(/\s+/g, '-')}`} className="text-blue-600 font-medium text-sm hover:underline">View Products</a>
                   </div>
                 </div>
               </div>
