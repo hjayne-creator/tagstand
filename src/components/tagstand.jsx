@@ -130,7 +130,7 @@ const TagstandModernEcommerce = () => {
             </div>
             <div className="hidden md:block">
               <img 
-                src="/images/hero-nfc-tags.jpg" 
+                src="https://picsum.photos/500/350" 
                 alt="NFC Tags Collection" 
                 className="rounded-lg shadow-lg object-cover"
               />
@@ -180,7 +180,7 @@ const TagstandModernEcommerce = () => {
               <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
                 <div className="h-32 bg-gray-200 flex items-center justify-center">
                   <img 
-                    src={`/images/categories/${category.toLowerCase().replace(/\s+/g, '-')}.jpg`} 
+                    src={`https://picsum.photos/150/150?random=${index}`} 
                     alt={category} 
                     className="h-24 w-24 object-cover"
                   />
@@ -221,7 +221,7 @@ const TagstandModernEcommerce = () => {
               <div key={index} className="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
                 <div className="relative">
                   <img 
-                    src={`/api/placeholder/300/300`} 
+                    src={`https://picsum.photos/300/300?random=${index + 10}`} 
                     alt={product.name} 
                     className="w-full h-64 object-cover"
                   />
@@ -281,7 +281,7 @@ const TagstandModernEcommerce = () => {
             </div>
             <div className="hidden md:block">
               <img 
-                src="/api/placeholder/500/350" 
+                src="https://picsum.photos/500/350?random=35" 
                 alt="Custom NFC Tag Builder" 
                 className="rounded-lg shadow-lg object-cover"
               />
@@ -316,7 +316,7 @@ const TagstandModernEcommerce = () => {
               <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
                 <div className="h-48 bg-gray-200">
                   <img 
-                    src={`/api/placeholder/400/250`} 
+                    src={`https://picsum.photos/400/250?random=${index + 20}`} 
                     alt={solution.title} 
                     className="w-full h-full object-cover"
                   />
@@ -482,7 +482,7 @@ const TagstandModernEcommerce = () => {
                 &copy; 2025 Tagstand. All rights reserved.
               </div>
               <div className="md:text-right">
-                <img src="/api/placeholder/200/30" alt="Payment methods" className="inline-block" />
+                <img src="https://picsum.photos/200/30?random=36" alt="Payment methods" className="inline-block" />
               </div>
             </div>
           </div>
@@ -500,15 +500,15 @@ const TagstandModernEcommerce = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
               <div>
                 <img 
-                  src="/api/placeholder/500/500" 
+                  src="https://picsum.photos/500/500?random=30" 
                   alt="Product name" 
                   className="w-full rounded-lg"
                 />
                 <div className="grid grid-cols-4 gap-2 mt-4">
-                  <img src="/api/placeholder/100/100" alt="Thumbnail" className="rounded cursor-pointer border-2 border-blue-600" />
-                  <img src="/api/placeholder/100/100" alt="Thumbnail" className="rounded cursor-pointer" />
-                  <img src="/api/placeholder/100/100" alt="Thumbnail" className="rounded cursor-pointer" />
-                  <img src="/api/placeholder/100/100" alt="Thumbnail" className="rounded cursor-pointer" />
+                  <img src="https://picsum.photos/100/100?random=31" alt="Thumbnail" className="rounded cursor-pointer border-2 border-blue-600" />
+                  <img src="https://picsum.photos/100/100?random=32" alt="Thumbnail" className="rounded cursor-pointer" />
+                  <img src="https://picsum.photos/100/100?random=33" alt="Thumbnail" className="rounded cursor-pointer" />
+                  <img src="https://picsum.photos/100/100?random=34" alt="Thumbnail" className="rounded cursor-pointer" />
                 </div>
               </div>
               
